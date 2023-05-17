@@ -1,0 +1,13 @@
+use("sample_training");
+
+//Consulta tabla 
+db.zips.find({city:"ALPINE"})
+//Insercion de un documento
+let Neider={
+    First_name: "Neider Huberty",
+    Last_name:"Dulcey Ariza",
+    age:"18"
+}
+db.zips.insertOne(Neider)
+
+

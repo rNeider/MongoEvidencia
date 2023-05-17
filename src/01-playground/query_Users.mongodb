@@ -1,0 +1,11 @@
+use("Login");
+
+let Neider={
+    First_name: "Neider Huberty",
+    Last_name:"Dulcey Ariza",
+    age:"18",
+    address:"Calle 10a #14-04 Panama",
+    phone:313147868,
+    email:"neide@gangoso.com"
+}
+db.Usuarios.insertOne(Neider)
